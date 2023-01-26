@@ -1,0 +1,467 @@
+
+
+/*------------------------------
+    |             HEADER           |
+     -----------------------------*/
+
+nav img {
+  display: flex;
+  height: 25px;
+  margin: 45px 0;
+}
+
+
+nav ul {
+  display: flex;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+body {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  line-height: 19px;
+  margin: 0px;
+  margin-left: 20px;
+  max-width: 1400px;
+  margin: auto;
+  padding: 0 10px;
+}
+
+nav ul li {
+  list-style-type: none;
+  width: 50%;
+}
+
+.active:hover {
+
+  border-top: 2px solid #0065fc;
+  color: #0065fc;
+
+}
+.active2:hover {
+
+  border-top: 2px solid #0065fc;
+  color: #0065fc;
+
+}
+
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  padding: 0 6rem;
+
+}
+
+.titre-h1 {
+  margin-left: 6px;
+  margin-top: 40px;
+}
+
+.sous-titre {
+  margin-left: 10px;
+}
+
+
+/*---------------------------------------
+    |   SECTION 1: RECHERCHE ET FILTRES   |
+     --------------------------------------*/
+
+.toutlesfiltres {
+  display: flex;
+  align-items: baseline;
+  margin-left: 10px;
+}
+
+.titre-filtre {
+  margin-right: 30px;
+}
+
+
+.filtre {
+  align-items: center;
+  box-sizing: border-box;
+  border: 3px solid #D9D9D9;
+  border-radius: 45px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  margin-right: 70px;
+  padding-left: 10px;
+}
+
+.filtre:hover {
+  background-color: #DEEBFF;
+}
+
+.lesfiltres {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.information {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.recherche {
+  display: flex;
+  align-items: center;
+}
+.loupe{
+  display: none;
+}
+
+#position {
+  display: flex;
+  border: 1px solid #F2F2F2;
+  border-radius: 10px 0px 0px 10px;
+  background-color: #F2F2F2;
+  width: 35px;
+  height: 35px;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconeinfo {
+  border: 2px solid #F2F2F2;
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  text-align: center;
+  margin-left: 10px;
+  padding-top: 0px;
+  box-sizing: border-box;
+}
+
+.logements {
+  margin-left: 10px;
+}
+
+.nomfiltre {
+  display: flex;
+  margin-right: 20px;
+  margin-top: 16px;
+  margin-left: 8px;
+}
+
+.icone {
+  color: #0065fc;
+}
+
+input {
+  border: solid 1px #F2F2F2;
+  padding: 10px
+}
+
+button {
+  border: #0065FC;
+  border-radius: 0px 10px 10px 0px;
+  color: white;
+  background-color: #0065FC;
+  padding: 12px;
+
+}
+
+span {
+  display: flex;
+}
+
+
+/*
+i{
+  margin-right: 7px;
+  margin-left: 20px;
+}
+*/
+
+/*---------------------------------------
+   |  SECTION 2: HEBERGEMENT & POPULAIRE  |
+   ---------------------------------------*/
+.sectionhebergement {
+  border: 2px solid white;
+  background-color: #F2F2F2;
+  border-radius: 15px;
+  padding: 30px;
+}
+
+.titrecat {
+  padding-bottom: 10px;
+}
+
+.nomhebergement {
+  background-color: white;
+  box-shadow: 0 0 16px #0000002e;
+  border-radius: 20px;
+  padding-top: 1px;
+  margin-right: 2px;
+  margin: 0;
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+
+.hebergementimg {
+  object-fit: cover;
+  width: 100%;
+  height: 120px;
+  box-sizing: border-box;
+  border-radius: 20px 20px 0px 0px;
+}
+
+
+a {
+
+  color: inherit;
+  text-decoration: none;
+}
+
+.nomhebergementh3 {
+  margin-left: 12px;
+}
+
+
+.descnomhebergement {
+  display: flex;
+  margin-left: 16px;
+}
+
+.iconehebergement {
+  margin-left: 16px;
+  margin-bottom: 10px;
+  color: #0065fc;
+}
+
+.afficherplus {
+  padding-left: 5px;
+  padding-top: 10px;
+}
+
+.titrepopulaire {
+  padding-left: 15px;
+  align-items: center;
+}
+
+.pluspopulaire {
+  border: 2px solid #F2F2F2;
+  border-radius: 20px;
+  vertical-align: top;
+  background-color: #F2F2F2;
+  width: 30%;
+  margin-left: 40px;
+  padding: 20px;
+
+}
+
+
+
+.nompopulaire {
+  display: flex;
+  padding-top: 15px;
+  justify-content: space-between;
+  margin-right: 15px;
+}
+.nompopulaireh4{
+  margin: 5px;
+}
+
+.evolution {
+  color: #0065fc;
+  margin-right: auto;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 15px;
+}
+
+#texte {
+  display: flex;
+}
+
+.populaireimg {
+  object-fit: cover;
+  width: 137px;
+  border-radius: 20px 0px 0px 20px;
+  margin: 0px;
+  padding-top: 4px;
+  padding-left: 4px;
+  height: 144px;
+}
+
+
+.populairefigcaption {
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.titrebloc1 {
+  background-color: white;
+  box-shadow: 0 0 14px #0000002e;
+  border-radius: 20px;
+  margin-top: 45px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-bottom: 4px;
+}
+.titrebloc2 {
+  background-color: white;
+  box-shadow: 0 0 14px #0000002e;
+  border-radius: 20px;
+  margin-top: 45px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-bottom: 4px;
+}
+.titrebloc3 {
+  background-color: white;
+  box-shadow: 0 0 14px #0000002e;
+  border-radius: 20px;
+  margin-top: 45px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-bottom: 4px;
+}
+
+
+#hebergements {
+  display: flex;
+}
+
+.nompopulairefigure {
+  margin: 0;
+  display: flex;
+}
+
+.iconepopulaire {
+  color: #0065fc;
+  display: flex;
+
+}
+
+.titre {
+  width: 100%;
+}
+
+
+.listehebergements {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.nomhebergementfigure {
+  margin: 3px;
+}
+
+.iconegris {
+  color: #F2F2F2;
+}
+
+.prixnuit {
+  margin-top: 0;
+  margin: 0;
+}
+
+/*-----------------------
+     | SECTION 3: ACTIVITES  |
+      -----------------------*/
+
+.nomactivites {
+  margin-left: 30px;
+  margin-top: 60px;
+}
+
+.blocimg {
+  border-radius: 20px 20px 0px 0px;
+  box-shadow: 0 0 16px #0000002e;
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.titreactivites {
+  padding-left: 15px;
+}
+
+
+.blocactivites {
+  text-decoration: none;
+  color: inherit;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 0 0 16px #0000002e;
+  margin: 0;
+  width: 22%;
+  padding-bottom: 3px;
+
+}
+
+.etoilegrise {
+  color: #F2F2F2;
+}
+
+.listeactivites {
+  display: flex;
+
+}
+
+.nompopulaireh4 {
+  margin-right: 5px;
+}
+
+.populaire {
+  display: flex;
+}
+
+.listeactivites {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+
+ul {
+  list-style-type: none;
+
+}
+
+/*----------
+     |  FOOTER  |
+     ----------*/
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid #F2F2F2;
+  background-color: #F2F2F2;
+  margin-top: 50px;
+}
+
+.categorie {
+  width: 33%;
+  box-sizing: border-box;
+}
+
+.titrefooter {
+  padding-left: 40px;
+}
+
+footer li {
+  margin-bottom: 8px;
+}
